@@ -1,11 +1,13 @@
-
-
+import Movies from "./component/movies";
 
 function App() {
+
+ 
   return (
-    <div className="App">
-     
-    </div>
+    < >
+    <h1>My Watchlist</h1>
+     <Movies/>
+    </>
   );
 }
 
